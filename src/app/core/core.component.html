@@ -1,0 +1,14 @@
+<at-layout #layoutMain
+           [layoutType]="'main'" [scrollOn]="content">
+    <at-layout-header>
+        <app-toolbar [layoutRef]="layoutMain"></app-toolbar>
+    </at-layout-header>
+    <at-layout-sidenav [elevation]="7">
+        <app-sidenav></app-sidenav>
+    </at-layout-sidenav>
+    <at-layout-content>
+        <router-outlet></router-outlet>
+    </at-layout-content>
+</at-layout>
+
+

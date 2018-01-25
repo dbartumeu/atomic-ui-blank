@@ -1,0 +1,15 @@
+<at-layout #blankLayout
+           [layoutType]="'basic'"
+           scrollOn="container">
+    <at-layout-header>
+        <div class="at-ph-40">
+            <h1 class="at-mb-5" fxLayout="row" fxLayoutAlign="start space-around">
+                <span fxFlex>Blank Component</span>
+            </h1>
+            <h4 class="at-mb-5">Blank Component Description</h4>
+        </div>
+    </at-layout-header>
+    <at-layout-content [ngClass.gt-sm]="'at-p-40'" class="at-hp-100">
+        The content
+    </at-layout-content>
+</at-layout>
